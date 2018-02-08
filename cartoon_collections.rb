@@ -20,4 +20,5 @@ def find_the_cheese(snacks)
   snacks.detect do |snack|
     snack.include?(cheese_types)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  end
 end
